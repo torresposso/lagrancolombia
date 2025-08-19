@@ -1,8 +1,9 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+
   devServer: {
-    port: 3001    
+    port: 4321    
   },
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -13,10 +14,13 @@ export default defineNuxtConfig({
     ],
   },
   modules: [
+    '@nuxt/ui',
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/ui',
   ],
+  colorMode: {
+    preference: 'light'
+  },
 })

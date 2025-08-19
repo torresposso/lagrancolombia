@@ -14,7 +14,7 @@
     "@nuxt/eslint": "^1.8.0",
     "@nuxt/image": "^1.11.0",
     "@nuxt/scripts": "^0.11.10",
-    "@nuxt/ui": "^3.3.2",
+    "@nuxt/ui": "^4.0.0-alpha.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@tailwindcss/vite": "^4.1.12",
     "@unhead/vue": "^2.0.14",
@@ -27,6 +27,8 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.2.63",
+    "@tailwindcss/typography": "^0.5.16",
     "daisyui": "^5.0.50"
   }
 }
